@@ -9,18 +9,29 @@ body {
     width: 395px;
     height: auto;
     border: 5px solid black;
-    margin: 20px;
+    margin: auto;
     padding: 5px;
     
 }
 
-.recipes-list {
+header {
+    margin: 20px;
+}
+
+main {
     background-color:bisque ;
     width: 300px;
-    height: 400px;
+    height: 450px;
     border: 5px solid black;
-    margin: 20px;
+    margin: auto;
     padding: 50px;
+}
+
+main img {
+    display: block;
+    margin: auto;
+    width: 300px;
+    
 }
 
 ul {
@@ -31,5 +42,17 @@ ul {
     width: auto;
     height: 100px;
     border:dotted black 3px;
-    padding: 30px;
+    padding: 15px 30px;  
+    margin-top: 30px;
+    
+}
+
+li > a {
+    text-decoration: none;
+    color: black;    
+}
+
+li > a:hover {
+    text-decoration: underline;
+    background-color: bisque;
 }
